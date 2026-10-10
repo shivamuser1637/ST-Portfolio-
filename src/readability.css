@@ -1,0 +1,60 @@
+/* Higher contrast and more comfortable reading sizes across the resume. */
+.technical-shell{color:#f3f6f8;--line:rgba(220,235,243,.2);--muted:#b6c2cb}
+.nav-links{font-size:12px;color:#d2dce2}
+.eyebrow{font-size:10px;color:#d7e0e5}
+.hero-overline{font-size:10px;color:#b6c4cd}
+.technical-hero h1{font-weight:700;text-shadow:0 2px 24px rgba(0,0,0,.3)}
+.hero-lede{font-size:15px;line-height:1.85;color:#d0d9df;max-width:460px}
+.hero-foot{font-size:9px;color:#b2c0c9}
+.section-kicker{font-size:10px;color:#b4c1ca}
+.section-heading>p{font-size:26px;color:#edf3f6}
+.intro-text{font-size:14px;line-height:1.95;color:#c0cbd3}
+.principle-row{font-size:9px;color:#c0ccd3}
+.experience-card{background:linear-gradient(90deg,rgba(15,27,36,.5),rgba(9,13,21,.12));padding-top:31px;padding-bottom:32px}
+.experience-marker{font-size:10px}
+.experience-head h3{font-size:21px;color:#f1f5f7}
+.company-name{font-size:14px;color:#c4d0d8}
+.experience-head time{font-size:10px;color:#bdc9d0}
+.project-line{font-size:9px;color:#b7f1d2;border-color:rgba(157,227,193,.35);background:rgba(157,227,193,.045)}
+.experience-main ul{font-size:12.5px;line-height:1.95;color:#c2cdd5}
+.impact-card{background:linear-gradient(145deg,rgba(21,39,48,.86),rgba(10,17,25,.84))}
+.impact-top{font-size:9px;color:#b1bec7}
+.impact-card>strong{font-size:43px}
+.impact-card h3{font-size:13px;color:#f1f5f7}
+.impact-card p{font-size:11px;line-height:1.75;color:#b8c5cd}
+.impact-foot{font-size:9px;color:#b5c2cb}
+.skills-card{background:linear-gradient(145deg,rgba(20,34,44,.92),rgba(10,16,24,.9));border-color:rgba(220,235,243,.19)}
+.skills-card h3{font-size:18px;color:#f0f4f6}
+.technical-stack .skills-card .skill-list span{font-size:9px;line-height:1.45;color:#d0d9df;border-color:rgba(220,235,243,.2);background:rgba(210,230,240,.035)}
+.card-index{font-size:9px;color:var(--mint)}
+.domain-footer{font-size:9px;color:#c0cbd2}
+.education-card{background:linear-gradient(145deg,rgba(19,34,43,.88),rgba(10,16,24,.9));border-color:rgba(220,235,243,.19)}
+.education-level{font-size:10px}
+.education-card h3{font-size:21px;color:#f0f4f6}
+.education-card>p{font-size:12px;color:#d0d9df}
+.education-school{font-size:11px;line-height:1.9;color:#b7c4cd}
+.cert-title{font-size:9px}
+.cert-row{font-size:12px;color:#e0e7eb}
+.cert-row b{font-size:9px;color:#a8e9c6}
+.contact-copy{font-size:14px;line-height:1.9;color:#c0cbd3}
+.contact-email{font-size:14px;color:#f0f4f6}
+.contact-phone{font-size:12px;color:#c3ced5}
+.contact-location{font-size:9px;color:#aebbc4}
+.contact-panel{background:rgba(12,20,29,.94);border-color:rgba(220,235,243,.2)}
+.panel-prompt{font-size:9px;color:#9db2bb}
+.contact-panel strong{font-size:10px;color:#f0f5f6}
+.footer{font-size:9px;color:#aebcc5}
+.portrait-card figcaption span,.portrait-card figcaption small{font-size:8px;color:#b5c6ce}
+.portrait-card figcaption strong{font-size:10px;color:#f2f7f8}
+a:focus-visible,button:focus-visible{outline:2px solid var(--mint);outline-offset:4px}
+@media(max-width:640px){
+  .section-heading>p{font-size:22px}
+  .hero-lede{font-size:14px}
+  .experience-head h3{font-size:18px}
+  .company-name{font-size:13px}
+  .experience-main ul{font-size:12px;line-height:1.85}
+  .impact-card p{font-size:10px}
+  .technical-stack .skills-card .skill-list span{font-size:9px}
+  .education-school{font-size:10px}
+  .cert-row{font-size:10px}
+}

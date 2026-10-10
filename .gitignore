@@ -1,0 +1,4 @@
+node_modules/
+dist/
+backend/Portfolio.Api/bin/
+backend/Portfolio.Api/obj/
